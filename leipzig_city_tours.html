@@ -1,0 +1,175 @@
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Поездки для женщин в Лейпциге</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+margin: 0;
+padding: 0;
+}
+header {
+background-color: #ff3366;
+color: white;
+text-align: center;
+padding: 20px;
+}
+.content {
+padding: 20px;
+}
+.tour-info, .tour-program, .tour-cost, .payment-form, .reviews-section {
+background-color: #fff;
+padding: 15px;
+margin: 10px 0;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px;
+}
+a {
+color: #ff3366;
+text-decoration: none;
+}
+.image-container {
+
+text-align: center;
+margin: 20px 0;
+}
+.image-container img {
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+}
+.tour-images img {
+max-width: 48%;
+margin: 1%;
+border-radius: 8px;
+}
+.section-title {
+color: #ff3366;
+}
+.review-card {
+background-color: #f9f9f9;
+border-radius: 8px;
+margin: 10px 0;
+padding: 15px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.review-card h4 {
+color: #ff3366;
+}
+.review-card p {
+font-style: italic;
+}
+.review-form {
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Поездки для женщин в Лейпциге</h1>
+<p>Безопасные и увлекательные экскурсии по Лейпцигу только для женщин!</p>
+</header>
+
+<div class="image-container">
+<!-- Пример изображения Лейпцига -->
+<img src="https://example.com/leipzig_city.jpg" alt="Город Лейпциг">
+</div>
+
+<div class="content">
+<h2>Наш тур</h2>
+
+<div class="tour-info">
+<h3>Экскурсия по историческому Лейпцигу</h3>
+<p>Этот тур длится 4 дня и включает в себя экскурсии по самым красивым и исторически значимым местам Лейпцига, а также время для отдыха и развлечений в компании других женщин.</p>
+</div>
+
+<div class="tour-program">
+<h3 class="section-title">Программа тура</h3>
+<ul>
+<li><strong>День 1:</strong> Встреча в аэропорту, знакомство с гидом, экскурсия по историческому центру Лейпцига, ужин в уютном кафе.</li>
+<li><strong>День 2:</strong> Экскурсия по музеям города, шоппинг, вечерняя прогулка по живописным улочкам Лейпцига.</li>
+<li><strong>День 3:</strong> Прогулка по паркам города, посещение культурных объектов, свободное время для отдыха и фотографий.</li>
+<li><strong>День 4:</strong> Заключительная экскурсия, обед, время на покупки и выезд из города.</li>
+</ul>
+</div>
+
+<div class="tour-cost">
+<h3 class="section-title">Стоимость тура</h3>
+<p>Стоимость 4-дневного тура составляет <strong>2000€</strong>, вкючая всё (All inclusive). В эту цену входит:</p>
+<ul>
+<li>Проживание в комфортбельных аппартаментах</li>
+<li>Все экскурсии и транспорт по городу</li>
+
+<li>Все питание (завтраки, обеды и ужины)</li>
+<li>Услуги профессионального гида</li>
+<li>Фото-сессия и памятные подарки</li>
+</ul>
+</div>
+
+<div class="payment-form">
+<h3 class="section-title">Форма оплаты</h3>
+<p>Вы можете оплатить тур через следующие способы:</p>
+<ul>
+<li>Банковский перевод (реквизиты предоставляются при бронировании)</li>
+<li>Оплата через PayPal</li>
+<li>Наличные при встрече</li>
+</ul>
+<p>Для бронирования тура, пожалуйста, свяжитесь с нами по email: <a href="mailto:info@leipzigcitytours.com">info@leipzigcitytours.com</a></p>
+</div>
+
+<div class="reviews-section">
+<h3 class="section-title">Отзывы наших клиентов</h3>
+
+<!-- Пример отзыва -->
+<div class="review-card">
+<h4>Мария, 28 лет</h4>
+<p>"Это был невероятный день! Экскурсия по Лейпцигу была очень интересной и познавательной. Я почувствовала себя в безопасности и получила море положительных эмоций. Большое спасибо организаторам!"</p>
+</div>
+
+<div class="review-card">
+<h4>Анна, 35 лет</h4>
+
+<p>"Очень приятно было узнать больше о Лейпциге в компании других женщин. Экскурсия была прекрасно организована, и мы посетили самые красивые места города. Рекомендую всем!"</p>
+</div>
+
+<div class="review-form">
+<h4>Оставьте свой отзыв</h4>
+<form action="submit_review.php" method="post">
+<label for="name">Ваше имя:</label><br>
+<input type="text" id="name" name="name" required><br><br>
+<label for="review">Ваш отзыв:</label><br>
+<textarea id="review" name="review" rows="4" required></textarea><br><br>
+<input type="submit" value="Отправить отзыв">
+</form>
+</div>
+</div>
+
+<div class="tour-images">
+<!-- Пример добавления ваших личных фотографий -->
+<img src="https://example.com/your_photo_1.jpg" alt="Фото тура 1">
+<img src="https://example.com/your_photo_2.jpg" alt="Фото тура 2">
+</div>
+</div>
+
+<footer>
+<p>&copy; 2025 Поездки для женщин в Лейпциге. Все права защищены.</p>
+<p>Связаться с нами: <a href="mailto:info@leipzigcitytours.com">info@leipzigcitytours.com</a></p>
+</footer>
+
+</body>
+</html>
+```
